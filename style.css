@@ -1,0 +1,24 @@
+html{
+    font-size: 18px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+div{
+    line-height: 1.4;
+}
+
+.main_block{
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    width: 1000px;
+    background-color: snow;
+    margin: auto;
+}
+
+.code_ex{
+    font-size: 0.7rem;
+
+}

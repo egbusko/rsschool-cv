@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_block">
+        <h1>Junior Developer Resume!</h1>
+
+        <h3>1. <a href="index.html">Yegor Busko</a></h3>
+        <a href="index.html"><img src="images/selfi.jpg" alt="My foto" width="180" height="200"></a>
+
+        <br>
+        <h3>2. Contact info</h3>
+        <ul>
+            <li>
+                <div><a href="https://mail.google.com">Gmail:</a> <i>busko.egor@gmail.com</i></div>
+            </li>
+            <li>
+                <div><a href="https://www.skype.com">Skype</a>: <i>yegorBusko</i></div>
+            </li>
+        </ul>
+
+        <br>
+        <h3>3. Summary</h3>
+        <div>I'm 19. Always liked Math and since the 10th grade was interested in programming.
+            Entered the BSU at the <a href="https://fpmi.bsu.by">Faculty of Applied Mathematics and Computer Science</a>
+            in 2018.
+            In the university there is a lot of Math but programming is also present.
+            Mostly like algorithmic tasks, learning English & German.</div>
+
+        <br>
+        <h3>4. Programming languages knowledge <i>(on 19.09.2020)</i> :</h3>
+        <ul>
+            <li>
+                <div>middle: C/C++, Java</div>
+            </li>
+            <li>
+                <div>beginner: C#, JavaScript / HTML / CSS, SQL</div>
+            </li>
+        </ul>
+        <div>Worked with: IntelliJ IDEA, Visual Studio, Postman, Wolfram Mathematica, Scratch</div>
+
+        <br>
+        <h3>5. Code examples</h3>
+        <div>The one of the latest Code examples on Algorithms subject in BSU
+            (one function in Java):</div>
+        <pre> <span class="code_ex">
+                public static void dijkstra2() {
+                int j, way;
+                m2[n] = 0;
+                queue.add(new El(n, 0, false));
+
+                while (!queue.isEmpty()) {
+                    int i = queue.pollFirst().num;
+                    if (H2[i] == 0) {
+                        H2[i] = 1;
+                        for (El edge : nodeList[i]) {
+                            if (!edge.direction) {
+                                j = edge.num;
+                                way = edge.prior;
+                                if (m2[i] + way < span m2[j]) {
+                                    m2[j] = m2[i] + way;
+                                    queue.add(new El(j, m2[j], false));
+                                }
+                            }
+                        }
+                    }
+                }
+            }</span></pre>
+
+        <br>
+        <h3>6. Experience</h3>
+        <div>In the University, in addition to many laboratory works, worked with <a
+                href="https://acm.bsu.by">'IRunner'</a> - automatic testing system.
+            From February to May software engineering company <a href="https://www.exadel.com">Exadel</a> practiced us.
+        </div>
+
+        <br>
+        <h3>7. Education</h3>
+        <ul>
+            <li>
+                <div>I study at the <a href="https://fpmi.bsu.by">FAMCS</a>, BSU. Will graduate in 2022.</div>
+            </li>
+            <li>
+                <div>In 2016 passed 3month courses 'Website design in Adobe Photoshop'.</div>
+            </li>
+            <li>
+                <div>Everyday learning English (B1+) and German (A2).</div>
+            </li>
+        </ul>
+
+        <br>
+        <h3>8. English</h3>
+        <div>Studied English at school; with a tutor; often watch movies in English.</div>
+        <br>
+    </div>
+    <br>
+</body>
+
+</html>
